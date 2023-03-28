@@ -42,7 +42,7 @@ before_scripts:
 
 build_scripts:
   - ./before-build
-  - ./make-scanbuild
+  - ./make-scanbuild '--disable-dependency-tracking'
   - ./after-build
 
 after_scripts:
