@@ -4,6 +4,8 @@
 requires:
   debian:
     - aptitude
+    - autoconf
+    - automake
     - clang
     - clang-tools
     - cppcheck
@@ -17,6 +19,7 @@ requires:
     - libatk1.0-dev
     - libxml2-dev
     - libxml2-utils
+    - pkgconf
     - pkg-config
     - intltool
     - gtk-doc-tools
