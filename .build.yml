@@ -12,6 +12,7 @@ requires:
     - clang-tools
     - cppcheck
     - debhelper
+    - gettext
     - git
     - expect #required for unbuffer
     - gnome-pkg-tools
