@@ -7,6 +7,7 @@ requires:
     - autoconf
     - autoconf-archive
     - automake
+    - autotools-dev
     - clang
     - clang-tools
     - cppcheck
